@@ -1,0 +1,71 @@
+:root {
+    --color-1: #576b33;
+    --color-2: #c3d4a5;
+    --color-3: #49592a;
+    --color-4: #86945e;
+    --color-5: #cdd0c0;
+    --color-6: #6e8641;
+}
+
+* {
+    font-family: sans-serif;
+}
+
+body {
+    background-color: var(--color-5);
+}
+
+body nav {
+    display: flex;
+    margin-left: 1000px;
+}
+
+nav ul a {
+    text-decoration: none;
+}
+
+header {
+    background-color: var(--color-3);
+    align-items: center;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.logo h1 {
+    color: gainsboro;
+    margin-top: 50px;
+}
+
+.post {
+    background-color: var(--color-2);
+}
+
+.user p {
+    margin-top: 50px;
+
+}
+
+.post button {
+    background-color: #6e8641;
+}
+
+footer {
+    text-align: center;
+    background-color: var(--color-4);
+}
+
+.logo {
+    display: flex;
+}
+
+.user {
+    display: flex;
+}
+
+.user img {
+    width: 80px;
+}
+
+.logo img {
+    width: 200px;
+}
